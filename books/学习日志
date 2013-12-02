@@ -1,0 +1,22 @@
+Tutorial
+2013-12-02
+Part1
+1 creating a project
+	django-admin.py startproject mysite
+2 Database setup
+	python manage.py syncdb
+
+3 Creating your apps and models
+	 python manage.py startapp polls
+
+4 Activiting models
+	Edit the mysite/setting.py and add 'polls' in INSTALLED_APPS
+	#see the sql statements for the polls app
+	$python manage.py sql polls  
+	
+	#run syncdb angain to create those model
+	$python manage.py syncdb 
+
+5 Paying with the API
+	python manage.py shell
+
