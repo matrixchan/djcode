@@ -19,3 +19,15 @@ Part1
 
 5 Paying with the API
 	python manage.py shell
+
+
+2013-12-03
+Part2
+1 Start the development server
+	$python manage.py runserver
+
+2 Make the poll app modifiable in the admin
+ Edit polls/admin.py
+
+3 Customize the admin form
+	
