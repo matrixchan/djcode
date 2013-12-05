@@ -20,3 +20,27 @@ Part1
 5 Paying with the API
 	python manage.py shell
 
+
+
+--------------------------------------------------------
+2013-12-05
+Part 2 
+1 Start the server and enter the login admin site
+	python manage.py runserver
+
+2 Make the poll app modifiable in the admin
+	Edit poll/admin.py
+	
+
+3 Customize the admin form
+
+4 Add related objects
+
+over----
+
+
+
+
+
+
+
