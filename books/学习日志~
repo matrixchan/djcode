@@ -21,6 +21,7 @@ Part1
 	python manage.py shell
 
 
+<<<<<<< HEAD
 
 --------------------------------------------------------
 2013-12-05
@@ -44,3 +45,15 @@ Part 2
 
 
 
+=======
+2013-12-03
+Part2
+1 Start the development server
+	$python manage.py runserver
+
+2 Make the poll app modifiable in the admin
+ Edit polls/admin.py
+
+3 Customize the admin form
+	
+>>>>>>> b974fe7fa227859bef39d7da085243bcf3035a11
