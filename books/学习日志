@@ -40,20 +40,21 @@ Part 2
 over----
 
 
+2013-12-06
+Part 3
+1 Write your first view
+  Edit polls/views.py
+
+  在polls/views.py中添加视图后，需配置URL。有连个地方需要修改，第一是mysite目录下的urls.py，第二是polls/urls.py.
+在浏览器访问htpp://localhost:8000/polls/，会指向默认的index 视图。
+
+over--------------
 
 
 
 
 
-=======
-2013-12-03
-Part2
-1 Start the development server
-	$python manage.py runserver
 
-2 Make the poll app modifiable in the admin
- Edit polls/admin.py
 
-3 Customize the admin form
 	
->>>>>>> b974fe7fa227859bef39d7da085243bcf3035a11
+
