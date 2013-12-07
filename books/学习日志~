@@ -48,7 +48,7 @@ Part 3
   在polls/views.py中添加视图后，需配置URL。有连个地方需要修改，第一是mysite目录下的urls.py，第二是polls/urls.py.
 在浏览器访问htpp://localhost:8000/polls/，会指向默认的index 视图。
 
-over
+over--------------
 
 
 
