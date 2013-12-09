@@ -43,7 +43,7 @@ def vote(request,poll_id):
 
 
 class IndexView(generic.ListView):
-    template_name = 'polls/inde.html'
+    template_name = 'polls/index.html'
     context_object_name = 'latest_poll_list'
 
     def get_queryset(self):
