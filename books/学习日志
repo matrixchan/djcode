@@ -65,6 +65,34 @@ MVC范式
 应用程序被划分称模型（控制数据），视图（定义显示的方法），以及控制器
 
 
+第四章 定义和和使用模型
+
+4.1 定义模型
+ORM--对象关系映射
+模型变量-》模型类-》模型类元
+ 
+
+一，Dajango常用的变量类型
+*CharField和TextField
+*EmailField,URLField和IPAddressField
+*BooleanField和NullBooleanField
+*FileField
+
+主键和唯一性
+模型之间的关系：外键（一对多，多对一）
+多对多关系
+模型的继承：抽象基础类，多表继承
+Meta嵌套类
+
+二，使用模型
+1,使用manage.py创建和更新数据库
+2,查询语法
+3，利用Django没有提供的SQL特性
+
+
+
+
+
 
 
 	
